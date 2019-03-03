@@ -71,7 +71,7 @@ paginate_path:         /blog/page-:num/
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydejack
+remote_theme: qwtel/hydejack@v8.3.2
 plugins:
   - jekyll-default-layout
   - jekyll-feed
