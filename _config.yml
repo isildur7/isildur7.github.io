@@ -107,11 +107,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-social:
+#social:
 #   name:                <firstname> <lastname>
-  links:
-    - https://linkedin.com/amey-chaware
-    - https://github.com/isildur7
+#  links:
+#    - https://linkedin.com/amey-chaware
+#    - https://github.com/isildur7
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
