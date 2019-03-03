@@ -31,7 +31,7 @@ author1:
     # download:        <url>
     email:           amey.chaware@duke.edu
     # rss:             https://<url>/feed.xml
-    facebook:        epsilon725
+    # facebook:        epsilon725
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
@@ -40,7 +40,7 @@ author1:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       amey_chaware
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
