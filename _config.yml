@@ -22,26 +22,31 @@ tagline: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "isildur7.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  isildur7
-
-menu:
-  - title: Blog
-    url: /blog/
-  - title: Projects
-    url:   /research/
-  - title: Resume
-    url:   /assets/Resume/Feb19.pdf
+author:
+  # Used by `jekyll-feed`:
+  name:                Amey Chaware
+  email:               amey.chaware@duke.edu
+  # Used by `jekyll-seo-tag`:
+  # twitter:             <username>
+# menu:
+#   - title: Projects
+#     url:   /research/
+#   - title: Blog
+#     url: /blog/
+#   - title: Resume
+#     url:   /resume/
 
 # Customizaton
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
 accent_image:          /assets/360WmGL.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(139,69,19)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(139,69,19)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -59,9 +64,9 @@ defaults:
   - scope:
       path:            hyde
     values:
-      accent_color:    rgb(38,139,210)
+      accent_color:    rgb(139,69,19)
       accent_image:
-        background:    rgb(32,32,32)
+        background:    rgb(139,169,119)
         overlay:       false
 
 
