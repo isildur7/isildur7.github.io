@@ -40,7 +40,7 @@ author:
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/360WmGL.jpg
+accent_image:          /assets/nhml.jpg
 accent_color:          rgb(139,69,19)
 
 # This is used for the `theme-color` meta tag,
