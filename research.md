@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research and Projects
+title: "Research and Projects"
 menu: true
 permalink: /research/
 ---
