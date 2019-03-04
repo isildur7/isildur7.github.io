@@ -27,9 +27,10 @@ author1:
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
     #twitter:
-    github:          isildur7
     # download:        <url>
     email:           amey.chaware@duke.edu
+    linkedin:        amey-chaware
+    github:          isildur7
     # rss:             https://<url>/feed.xml
     # facebook:        epsilon725
     # google:          <number>
@@ -58,7 +59,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        amey-chaware
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
