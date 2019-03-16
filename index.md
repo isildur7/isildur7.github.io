@@ -15,4 +15,3 @@ cover: true
 <p>More than anything else though, it’s the pleasure of figuring things out which drives me the most. I am always willing to test unknown waters and stretch myself to learn about things which are completely new to me.<p>
 
 <p>I do some photography, although I would like to do it more. I also spend time cooking or reading about history, general science, or some good fiction. I am a big fan of Manchester United, and I follow Cricket and Formula 1 closely as well.<p>
-</div>
