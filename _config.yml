@@ -3,7 +3,7 @@ title:       Amey Chaware
 email:       amey.chaware@duke.edu
 author:      Amey Chaware
 description: "Welcome to my personal webapge!"
-baseurl: "/isildur7.github.io"
+baseurl: ""
 url: "http://isildur7.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
