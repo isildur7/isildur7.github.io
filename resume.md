@@ -4,6 +4,4 @@
 # To create links to social media sites, check out `_data/authors.yml`!
 redirect_to: /assets/Resume/Feb19.pdf
 title: "Resume"
-menu: true
-order: 2
 ---

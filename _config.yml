@@ -1,131 +1,133 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Amey Chaware
-email: amey.chaware@duke.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Welcome to my personal webapge!
-tagline: >
-    Graduate Student at Duke University
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "isildur7.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  isildur7
-author:
-  # Used by `jekyll-feed`:
-  name:                Amey Chaware
-  email:               amey.chaware@duke.edu
-  # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
-# menu:
-#   - title: Projects
-#     url:   /research/
-#   - title: Blog
-#     url: /blog/
-#   - title: Resume
-#     url:   /resume/
+title:       Amey Chaware
+email:       amey.chaware@duke.edu
+author:      Amey Chaware
+description: "Welcome to my personal webapge!"
+baseurl:     ""
+url:         "localhost:4000"
+date_format: "%b %-d, %Y"
+header_pages:
+ - research.md
+ - !blog.md
+ - resume.md
 
-# Customizaton
-# ========================================================================================
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+# Bing services
+bing_verification:
 
-# Sidebar image and theme color of the site.
-accent_image:          /assets/img/nhml.jpg
-accent_color:          rgb(139,69,19)
+# Optional features
+animated:             true
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    false
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: true
+enable_anchorjs: false
+# Preview image for social media aka og:image and twitter:image
+post_preview_image: false
 
-# This is used for the `theme-color` meta tag,
-# which changes the background color of the browser UI in certain browsers.
-# Defaults to `accent_color`.
-theme_color:           rgb(139,69,19)
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id:
 
-# The string encoding which fonts to fetch from Google Fonts.
-# See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Roboto+Slab:400|Noto+Sans:400,400i,700,700i
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
 
-# The text font. Expects a string that is a valid CSS font-family value.
-# To change font-weight, see _sass/variables.scss
-font:                  Noto Sans, Helvetica, Arial, sans-serif
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
 
-# The font used for headings. Expects a string that is a valid CSS font-family value.
-# To change font-weight, see _sass/variables.scss
-font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+# Social icons
+github_username: isildur7
+reddit_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username:
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username: amey_chaware
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+telegram_username:
+vk_id:
 
-defaults:
-  - scope:
-      path:            hyde
-    values:
-      accent_color:    rgb(139,69,19)
-      accent_image:
-        background:    rgb(139,169,119)
-        overlay:       false
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
 
-
-# Pagination configuration (used by the `blog` layout)
-paginate:              5
-paginate_path:         /blog/page-:num/
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
 
 # Build settings
-markdown: kramdown
-remote_theme: qwtel/hydejack@v8.3.2
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  style: compressed
 plugins:
-  - jekyll-default-layout
-  - jekyll-feed
-  - jekyll-optional-front-matter
   - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-redirect-from
-  - jekyll-relative-links
-  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-titles-from-headings
-
-# SEO Tag
-# ---------------------------------------------------------------------------------------
-
-# Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
-# -- or --
-# webmaster_verifications:
-#   google:              <verification-id>
-#   bing:                <verification-id>
-#   alexa:               <verification-id>
-#   yandex:              <verification-id>
-
-# Used for Twitter cards
-# twitter:
-#   username:            <shortname>
-
-# Used for Facebook open graph
-# facebook:
-#   app_id:              <id>
-#   publisher:           <id>
-#   admins:              <id>
-
-# Used on index and about sites
-#social:
-#   name:                <firstname> <lastname>
-#  links:
-#    - https://linkedin.com/amey-chaware
-#    - https://github.com/isildur7
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-redirect-from
+# https://github.com/jekyll/jekyll/issues/2938
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - screenshot.png
+  - vendor
